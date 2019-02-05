@@ -2,12 +2,11 @@
 @file stack.h
 */
 #include "memcheck.h"
-
 #ifndef SPL_STACK_H
 #define SPL_STACK_H
 
 typedef struct StackImplementation* Stack;
-
+typedef struct NodeImplementation* Node;
 /**
  * Used to create a stack structure.
  * @return The newly created stack.
